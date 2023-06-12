@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple CRUD - Edit</title>
+    <!-- <link rel="stylesheet" type="text/css" href="./styles.css"> -->
+    <link rel="stylesheet" href="styles/index.processed.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Update</h1>
+    <div class="ui form">
+      <form style="margin-bottom: 30px">
+        <div class="field">
+          <label>Name</label>
+          <input id="name" type="text" name="name" placeholder="Name" />
+        </div>
+        <div class="field">
+          <label>Birthday</label>
+          <input id="birthday" type="text" name="birthday" placeholder="dd/mm/yyyy"></input>
+        </div>
+        <div class="field">
+          <label>Phone</label>
+          <input id="phone" type="number" name="phone" placeholder="0901234567"></input>
+        </div>
+        <div class="field">
+          <label>E-mail</label>
+          <input id="email" type="email"  name="email" placeholder="joe@schmoe.com">
+        </div>
+        <div class="field">
+          <label>Country</label>
+          <input id="country" type="text" name="country" placeholder="Vietnam"></input>
+        </div>
+
+        <!-- <input id="name" placeholder="Name" value=""></input>
+        <input id="birthday" placeholder="Birthday: dd/mm/yyyy" value=""></input>
+        <input id="country" placeholder="Country" value=""></input>
+        <input id="email" placeholder="Email: abc@gmail.com" value=""></input>
+        <input id="phone" placeholder="Phone: 0901234567" value=""></input> -->
+      </form>
+      <div style="display: flex; justify-content: center">
+        <a id="back" class="ui basic button"  href="index.html">Back</a>
+        <button id="update" class="ui submit button" onclick="apiUpdate()">Update</button>
+      </div>
+    </div>
+    <script>apiShowUser()</script>
+  </body>
+</html>

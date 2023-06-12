@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple CRUD - Details</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Details</h1>
+    <div style="display: flex; justify-content: center">
+      <img></img>
+      <table style="width: 60%">
+        <tr>
+          <th>Name</th>
+          <th id="name">Nguyen Van A</th>
+        </tr>
+        <tr>
+          <td>Birthday</th>
+          <td id="birthday">01/01/1995</td>
+        </tr>
+        <tr>
+          <td>Country</th>
+          <td id="country">Dong Thap</td>
+        </tr>
+        <tr>
+          <td>Email</th>
+          <td id="email">abc123@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Phone Number</th>
+          <td id="phone">0909 393 797</td>
+        </tr>
+      </table>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <a id="back" href="index.html">Back</a>
+      <button id="update" onclick="apiRedirect()">Update</button>
+    </div>
+    <script>apiRenderUserInfo()</script>
+  </body>
+  </html>

@@ -1,0 +1,79 @@
+/* body {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 800px;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid #e8e8e8;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+table {
+  margin: auto;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #e8e8e8;
+  height: 45px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+#update {
+  padding: 10px;
+  text-decoration: none;
+  color: #252525;
+  background: #98dadc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+#delete {
+  padding: 10px;
+  border: none;
+  color: #252525;
+  background: #fd630091;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+#add {
+  padding: 10px;
+  text-decoration: none;
+  color: #252525;
+  background: #acf7c8;
+  border-radius: 5px;
+}
+#create {
+  padding: 10px;
+  text-decoration: none;
+  color: #252525;
+  background: #98dadc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+#back {
+  padding: 10px;
+  text-decoration: none;
+  color: #252525;
+  background: #d7d7d7;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-right: 20px;
+} */
